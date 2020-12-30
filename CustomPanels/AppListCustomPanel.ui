@@ -1,0 +1,115 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.7668.29402, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.panel, Library, Version=1.0.7668.29402, Culture=neutral, PublicKeyToken=null" name="panel1" children="Controls">
+      <Object type="Library.label, Library, Version=1.0.7668.29402, Culture=neutral, PublicKeyToken=null" name="AppName" children="Controls">
+        <Property name="PmWidget">
+          <Property name="Align">MiddleCenter</Property>
+          <Property name="font">HYQIHEI-55J.TTF</Property>
+          <Property name="FontSize">25</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">22</Property>
+          <Property name="Y">165</Property>
+          <Property name="_Height">44</Property>
+          <Property name="_Name">AppName</Property>
+          <Property name="_Width">196</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="Textd" />
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">22, 165</Property>
+        <Property name="Name">AppName</Property>
+        <Property name="Size">196, 44</Property>
+        <Property name="TabIndex">1</Property>
+      </Object>
+      <Object type="Library.imagebox, Library, Version=1.0.7668.29402, Culture=neutral, PublicKeyToken=null" name="AppIcon" children="Controls">
+        <Property name="PmWidget">
+          <Property name="Align">TopLeft</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">74</Property>
+          <Property name="Y">51</Property>
+          <Property name="_Height">92</Property>
+          <Property name="_Name">AppIcon</Property>
+          <Property name="_Width">92</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="MSImage">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="ImagePath" />
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">74, 51</Property>
+        <Property name="Name">AppIcon</Property>
+        <Property name="Size">92, 92</Property>
+        <Property name="TabIndex">0</Property>
+      </Object>
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">0</Property>
+        <Property name="_Height">240</Property>
+        <Property name="_Name">panel1</Property>
+        <Property name="_Width">240</Property>
+        <Property name="BkColor">0,255,255,255</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="BindTouch" />
+      <Property name="CustomPanel" />
+      <Property name="AutoScroll">True</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">Transparent</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">0, 0</Property>
+      <Property name="Name">panel1</Property>
+      <Property name="Size">240, 240</Property>
+      <Property name="TabIndex">0</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="font">点阵</Property>
+      <Property name="FontSize">16</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">694</Property>
+      <Property name="Y">519</Property>
+      <Property name="_Height">240</Property>
+      <Property name="_Name">AppListCustomPanel</Property>
+      <Property name="_Width">240</Property>
+      <Property name="BkColor">255,255,255,255</Property>
+      <Property name="FrColor">255,255,255,255</Property>
+      <Property name="Opacity">255</Property>
+    </Property>
+    <Property name="BackColor">White</Property>
+    <Property name="ClientSize">240, 240</Property>
+    <Property name="Location">694, 519</Property>
+    <Property name="Text">AppListCustomPanel</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">White</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

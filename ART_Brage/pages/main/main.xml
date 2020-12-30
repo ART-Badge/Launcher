@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+<class>Page</class>
+<widget class="Page" bindtouch="onPageTouch" name="main">
+<property name="enterAnim">AnimFade, 10, 50</property>
+<public>
+<property name="background">255, 0, 0, 0</property>
+</public>
+<widgets>
+<widget name="card" class="card" bindchange="onCardChange">
+<public>
+<property name="rect">0, 0, 240, 240</property>
+<property name="background">0, 0, 0, 0</property>
+</public>
+<property name="direction">HORIZONTAL | CYCLE</property>
+<widgets>
+<widget name="clock_panel" class="panel">
+<public>
+<property name="rect">0, 0, 240, 240</property>
+<property name="background">255, 0, 0, 0</property>
+<property name="hide" />
+</public>
+</widget>
+<widget name="id_panel" class="panel">
+<public>
+<property name="rect">0, 0, 240, 240</property>
+<property name="background">255, 0, 0, 0</property>
+<property name="backgroundImg">images/ID.png</property>
+<property name="hide" />
+</public>
+<widgets>
+<widget name="NameLabel" class="label">
+<public>
+<property name="rect">40, 73, 160, 40</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">/system/fonts/HYQIHEI-55J.TTF, 35</property>
+</public>
+<property name="text">陈庭伟</property>
+</widget>
+<widget name="PostLabel" class="label">
+<public>
+<property name="rect">10, 135, 220, 26</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">/system/fonts/HYQIHEI-55J.TTF, 20</property>
+</public>
+<property name="text">嵌入式软件工程师</property>
+</widget>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">70, 189, 100, 20</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="img">images/art_badge_logo.png</property>
+</widget>
+</widgets>
+</widget>
+</widgets>
+</widget>
+</widgets>
+</widget>
+</rtgui>

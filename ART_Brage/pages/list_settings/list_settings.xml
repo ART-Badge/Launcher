@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+<class>Page</class>
+<widget class="Page" bindtouch="onPageTouch" name="list_settings">
+<property name="enterAnim">AnimMoveTop, 2, 20</property>
+<property name="exitAnim">AnimMoveRight, 10, 20</property>
+<public>
+<property name="background">255, 255, 255, 255</property>
+</public>
+<widgets>
+<widget name="setting_card" class="card" bindchange="onCardChange">
+<public>
+<property name="rect">1, 1, 240, 240</property>
+<property name="background">0, 255, 255, 255</property>
+<property name="foreground">255, 255, 255, 255</property>
+</public>
+<property name="direction">VERTICAL | CYCLE</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>
