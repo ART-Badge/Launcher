@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+<widget class="Panel" name="Top_message_item">
+<public>
+<property name="background">0, 0, 0, 0</property>
+<property name="rect">0, 0, 250, 73</property>
+</public>
+<widgets>
+<widget name="icon" class="imagebox">
+<public>
+<property name="rect">12, 13, 50, 50</property>
+<property name="background">0, 0, 0, 0</property>
+</public>
+</widget>
+<widget name="title" class="label">
+<public>
+<property name="rect">68, 3, 179, 34</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 0, 0, 0</property>
+<property name="foreground">255, 255, 255, 255</property>
+<property name="font">fonts/HYQIHEI-55J.TTF, 24</property>
+</public>
+</widget>
+<widget name="content" class="label">
+<public>
+<property name="rect">68, 43, 179, 29</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 0, 0, 0</property>
+<property name="foreground">255, 255, 255, 255</property>
+<property name="font">fonts/HYQIHEI-55J.TTF, 20</property>
+</public>
+</widget>
+<widget name="button1" class="button" bindtap="onClick">
+<public>
+<property name="rect">0, 0, 250, 73</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">fonts/HYQIHEI-55J.TTF, 16</property>
+</public>
+</widget>
+</widgets>
+</widget>
+</rtgui>
