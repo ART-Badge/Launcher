@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="main" class="Page" bindtouch="onPanelTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="panel1" class="panel">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="backgroundImg">images/black.png</property>
+        <widgets>
+          <widget name="QRCode" class="QRCode">
+            <property name="rect">50, 53, 140, 140</property>
+            <property name="background">0, 255, 255, 255</property>
+            <property name="backgroundImg">images/white.png</property>
+            <property name="source">https://www.rt-thread.org/</property>
+            <property name="version">5</property>
+            <property name="eclevel">2</property>
+          </widget>
+          <widget name="BLE_Name" class="label">
+            <property name="rect">17, 204, 207, 28</property>
+            <property name="foreground">255, 255, 255, 255</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,22</property>
+            <property name="text">unknown</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+          <widget name="remind_label" class="label">
+            <property name="rect">45, 16, 150, 25</property>
+            <property name="foreground">255, 255, 255, 255</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,17</property>
+            <property name="text">ART-Badge_MAC</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

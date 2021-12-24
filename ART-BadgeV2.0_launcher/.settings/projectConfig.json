@@ -1,0 +1,27 @@
+{
+	"width": "240",
+	"height": "240",
+	"SDKName": "persimwear-2",
+	"APILevel": "2",
+	"projectName": "ART_Badge_backlight",
+	"pixelTypeValue": "ARGB8888",
+	"packageSetting": {
+		"before": {
+			"command": "",
+			"description": ""
+		},
+		"after": {
+			"command": "",
+			"description": ""
+		}
+	},
+	"simulation": {
+		"path": "../dist",
+		"simulatorPackage": true
+	},
+	"download": {
+		"type": "1",
+		"customeCommand": "udb connect com10 230400\nudb install dist\\app.prc",
+		"packageBeforeDownload": true
+	}
+}

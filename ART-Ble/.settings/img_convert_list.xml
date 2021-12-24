@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<images>
+  <file path="../src/res/images/black.png" format="rgb565"/>
+  <file path="../src/res/images/white.png" format="rgb565"/>
+</images>

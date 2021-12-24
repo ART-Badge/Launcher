@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="Game1_page" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="button3" class="button" bindtap="onBtnTouch">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="foreground">255, 0, 0, 0</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="font">fonts/youshe.ttf,16</property>
+        <property name="longPressOnce"/>
+        <property name="press"/>
+        <property name="longPressMs">30</property>
+        <property name="align">HORIZONTAL | VERTICAL</property>
+      </widget>
+      <widget name="imagebox1" class="imagebox">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="img">images/bg.png</property>
+      </widget>
+      <widget name="panel1" class="panel" bindtouch="onPanelTouch">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <widgets>
+          <widget name="label2" class="label">
+            <property name="rect">17, 78, 203, 22</property>
+            <property name="foreground">255, 0, 0, 0</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,20</property>
+            <property name="text">使用上键开始游戏</property>
+            <property name="align">TOP | HORIZONTAL</property>
+          </widget>
+          <widget name="panelscore" class="panel" bindtouch="onPanel2Touch">
+            <property name="rect">2, 11, 240, 230</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="backgroundImg">images/birdwin_bg2.png</property>
+            <widgets>
+              <widget name="imagebox17" class="imagebox">
+                <property name="rect">40, 16, 160, 23</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="img">images/gameover-bd.png</property>
+              </widget>
+              <widget name="panel2" class="panel">
+                <property name="rect">39, 59, 163, 73</property>
+                <property name="background">0, 212, 208, 200</property>
+                <widgets>
+                  <widget name="lblnum1" class="label">
+                    <property name="rect">105, 12, 45, 25</property>
+                    <property name="foreground">255, 255, 255, 255</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="font">fonts/youshe.ttf,20</property>
+                    <property name="text">1</property>
+                    <property name="align">HORIZONTAL | VERTICAL</property>
+                  </widget>
+                  <widget name="lblnum2" class="label">
+                    <property name="rect">105, 45, 45, 25</property>
+                    <property name="foreground">255, 255, 255, 255</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="font">fonts/youshe.ttf,20</property>
+                    <property name="text">1</property>
+                    <property name="align">HORIZONTAL | VERTICAL</property>
+                  </widget>
+                  <widget name="label3" class="label">
+                    <property name="rect">0, 12, 83, 25</property>
+                    <property name="foreground">255, 251, 255, 2</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="font">fonts/youshe.ttf,20</property>
+                    <property name="text">SCORE</property>
+                    <property name="align">RIGHT | VERTICAL</property>
+                  </widget>
+                  <widget name="label4" class="label">
+                    <property name="rect">0, 43, 83, 25</property>
+                    <property name="foreground">255, 251, 255, 2</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="font">fonts/youshe.ttf,20</property>
+                    <property name="text">BEST</property>
+                    <property name="align">RIGHT | VERTICAL</property>
+                  </widget>
+                </widgets>
+              </widget>
+              <widget name="button1" class="button" bindtap="onBtn">
+                <property name="rect">54, 142, 132, 26</property>
+                <property name="foreground">255, 0, 0, 0</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,18</property>
+                <property name="longPressMs">100</property>
+                <property name="text">下键重新开始</property>
+                <property name="align">HORIZONTAL | VERTICAL</property>
+              </widget>
+            </widgets>
+          </widget>
+        </widgets>
+      </widget>
+      <widget name="listctrl1" class="listctrl">
+        <property name="rect">135, 0, 40, 60</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="gap">0</property>
+        <property name="direction">VERTICAL</property>
+      </widget>
+      <widget name="listctrl2" class="listctrl">
+        <property name="rect">135, 180, 40, 60</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="gap">0</property>
+        <property name="direction">VERTICAL</property>
+      </widget>
+      <widget name="listctrl3" class="listctrl">
+        <property name="rect">280, 0, 40, 60</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="gap">0</property>
+        <property name="direction">VERTICAL</property>
+      </widget>
+      <widget name="listctrl4" class="listctrl">
+        <property name="rect">280, 180, 40, 60</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="gap">0</property>
+        <property name="direction">VERTICAL</property>
+      </widget>
+      <widget name="label1" class="label">
+        <property name="rect">100, 0, 40, 25</property>
+        <property name="foreground">255, 227, 8, 8</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="font">fonts/youshe.ttf,25</property>
+        <property name="text">0</property>
+        <property name="align">HORIZONTAL | VERTICAL</property>
+      </widget>
+      <widget name="imagebox2" class="animatedImage">
+        <property name="rect">20, 102, 45, 40</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="images">
+          <image>images/bird1.png</image>
+        </property>
+        <property name="interval">2500</property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

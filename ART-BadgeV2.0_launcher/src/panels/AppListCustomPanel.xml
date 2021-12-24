@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <widget name="AppListCustomPanel" class="panel">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="panel1" class="panel">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="backgroundImg">images/black.png</property>
+        <widgets>
+          <widget name="AppIcon" class="imagebox">
+            <property name="rect">60, 40, 90, 90</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="AppName" class="label">
+            <property name="rect">55, 160, 100, 30</property>
+            <property name="foreground">255, 255, 255, 255</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,20</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

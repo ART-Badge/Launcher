@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="Display_page" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="imagebox10" class="imagebox">
+        <property name="rect">0, 0, 35, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="img">images/black.png</property>
+      </widget>
+      <widget name="imagebox10_1" class="imagebox">
+        <property name="rect">200, 0, 40, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="img">images/black.png</property>
+      </widget>
+      <widget name="card" class="card" bindchange="onCardChange">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="direction">HORIZONTAL</property>
+        <property name="selectIndex">0</property>
+        <widgets>
+          <widget name="user_panel" class="panel">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="background">0, 212, 208, 200</property>
+            <widgets>
+              <widget name="imagebox1" class="imagebox">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="img">images/watch_bg.png</property>
+              </widget>
+              <widget name="animatedImage1" class="animatedImage">
+                <property name="rect">18, 98, 73, 74</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="loop"/>
+                <property name="interval">90</property>
+              </widget>
+              <widget name="time_label" class="label">
+                <property name="rect">40, 52, 154, 50</property>
+                <property name="foreground">255, 37, 36, 36</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,50</property>
+                <property name="text">00:00</property>
+                <property name="align">HORIZONTAL | VERTICAL</property>
+              </widget>
+              <widget name="date_label" class="label">
+                <property name="rect">142, 204, 81, 26</property>
+                <property name="foreground">255, 49, 49, 49</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,24</property>
+                <property name="text">00/00</property>
+                <property name="align">HORIZONTAL | VERTICAL</property>
+              </widget>
+              <widget name="user_name" class="label">
+                <property name="rect">103, 109, 134, 40</property>
+                <property name="foreground">255, 49, 49, 49</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,37</property>
+                <property name="text">小睿</property>
+                <property name="align">HORIZONTAL | VERTICAL</property>
+              </widget>
+              <widget name="city" class="label">
+                <property name="rect">4, 206, 102, 20</property>
+                <property name="foreground">255, 49, 49, 49</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,18</property>
+                <property name="text">深圳:晴</property>
+                <property name="align">RIGHT | BOTTOM</property>
+              </widget>
+              <widget name="second_label" class="label">
+                <property name="rect">196, 68, 27, 26</property>
+                <property name="foreground">255, 72, 72, 72</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,20</property>
+                <property name="text">00</property>
+                <property name="align">BOTTOM | HORIZONTAL</property>
+              </widget>
+              <widget name="battery" class="slider">
+                <property name="rect">186, 9, 34, 25</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="minValue">0</property>
+                <property name="maxValue">100</property>
+                <property name="currentValue">60</property>
+                <property name="direction">HORIZONTAL</property>
+                <property name="norImg">images/battery_new.png</property>
+                <property name="barImg">images/battery_max.png</property>
+              </widget>
+            </widgets>
+          </widget>
+          <widget name="forRTT_panel" class="panel">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="backgroundImg">images/RT-Thread_info.png</property>
+            <property name="hide"/>
+          </widget>
+          <widget name="Agenda_card" class="card" bindchange="onAgendaChange">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="hide"/>
+            <property name="direction">VERTICAL</property>
+            <property name="selectIndex">0</property>
+            <widgets>
+              <widget name="morn_panel" class="panel">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="backgroundImg">images/metting1.png</property>
+                <property name="hide"/>
+              </widget>
+              <widget name="morn_panel2" class="panel">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="backgroundImg">images/meeting7.png</property>
+                <property name="hide"/>
+              </widget>
+              <widget name="aftnoon_panel1" class="panel">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="backgroundImg">images/metting2.png</property>
+                <property name="hide"/>
+              </widget>
+              <widget name="aftnoon_panel2" class="panel">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="backgroundImg">images/metting3.png</property>
+                <property name="hide"/>
+              </widget>
+              <widget name="aftnoon_panel3" class="panel">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="backgroundImg">images/metting4.png</property>
+                <property name="hide"/>
+              </widget>
+              <widget name="aftnoon_panel4" class="panel">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="backgroundImg">images/metting5.png</property>
+                <property name="hide"/>
+              </widget>
+              <widget name="aftnoon_panel5" class="panel">
+                <property name="rect">0, 0, 240, 240</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="backgroundImg">images/metting6.png</property>
+              </widget>
+            </widgets>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

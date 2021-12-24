@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+<widget class="Panel" name="brick">
+<public>
+<property name="backgroundImg">images/brick.png</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="rect">0, 0, 45, 24</property>
+</public>
+</widget>
+</rtgui>

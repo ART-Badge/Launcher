@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="Design_page" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="card1" class="card" bindchange="onCardChange">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 255, 255, 255</property>
+        <property name="foreground">255, 255, 255, 255</property>
+        <property name="direction">VERTICAL</property>
+        <property name="selectIndex">0</property>
+        <widgets>
+          <widget name="panel1" class="panel">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="backgroundImg">images/ruicon0.png</property>
+          </widget>
+          <widget name="panel2" class="panel">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="backgroundImg">images/ruicon1.png</property>
+            <property name="hide"/>
+          </widget>
+          <widget name="panel3" class="panel">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="backgroundImg">images/ruicon2.png</property>
+            <property name="hide"/>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

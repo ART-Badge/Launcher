@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="main" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="card1" class="card">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="direction">VERTICAL</property>
+        <property name="selectIndex">0</property>
+        <widgets>
+          <widget name="imagebox1" class="imagebox">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/demo1.png</property>
+          </widget>
+          <widget name="imagebox2" class="imagebox">
+            <property name="rect">0, 0, 240, 240</property>
+            <property name="hide"/>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/demo2.png</property>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>
