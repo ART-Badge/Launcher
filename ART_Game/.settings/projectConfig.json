@@ -1,0 +1,11 @@
+{
+	"simulation": {
+		"path": "../dist",
+		"simulatorPackage": true
+	},
+	"SDKName": "persimwear-2",
+	"APILevel": "2",
+	"width": "240",
+	"height": "240",
+	"pixelTypeValue": "ARGB8888"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "com.example.ART_Game",
+    "name": "Game",
+    "author": "rt-thread",
+    "vendor": "rt-thread",
+    "version": "v1.0.0",
+    "tag": ["app"],
+    "apiLevel": {
+        "min": "2",
+        "target": "2"
+    },
+    "icon": "app.png"
+}

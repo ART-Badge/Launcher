@@ -1,0 +1,327 @@
+12-03 17:21:13.661 D/watch.cfg main: [screen_brightness_handle] set screen backlight(50).
+12-03 17:21:13.661 D/watch.cfg main: [screen_brightness_auto_handle] close screen backlight auto status.
+12-03 17:21:13.661 D/watch.cfg main: [screen_off_timeout_handle] set screen off timeout(5).
+12-03 17:21:13.661 D/watch.cfg main: [screen_off_display_handle] close off screen watch feature.
+12-03 17:21:13.661 D/watch.cfg main: [habit_vibration_handle] set vibration (0).
+12-03 17:21:13.661 W/watch.cfg main: Not enable hardware vibrate feature.
+12-03 17:21:13.662 D/watch.cfg main: [habit_dnd_handle] close do-not-disturb mode.
+12-03 17:21:13.662 D/watch.cfg main: [habit_anim_app_handle] set apply into the animation mode(scale).
+12-03 17:21:13.662 I/watch.app main: Watch application framewark starts successfully.
+12-03 17:21:13.701 D/drv.lcd hws: lcd driver control set brightness: 50.
+12-03 17:21:13.858 I/js_persim persim: persimmon launch: /
+12-03 17:21:13.865 W/RES persim: No table named zh-CN, load default table!
+12-03 17:21:13.880 W/RES persim: No table named zh-CN, load default table!
+12-03 17:21:13.891 W/RES persim: No table named zh-CN, load default table!
+12-03 17:21:13.894 W/RES persim: No table named zh-CN, load default table!
+12-03 17:21:13.896 W/RES persim: No table named zh-CN, load default table!
+12-03 17:21:13.899 W/RES persim: No table named zh-CN, load default table!
+12-03 17:21:14.094 D/drv.lcd hws: lcd driver control set brightness: 1.
+
+Persimmon v4.1.1 build Oct 20 2021
+
+12-03 17:21:14.175 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-03 17:21:14.266 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-03 17:21:14.335 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-03 17:21:14.404 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-03 17:21:14.501 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-03 17:21:14.570 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-03 17:21:14.645 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-03 17:21:14.726 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-03 17:21:14.806 D/drv.lcd hws: lcd driver control set brightness: 10.
+12-03 17:22:32.988 I/touch main: rt_touch init success
+12-03 17:22:32.988 I/sensor main: rt_sensor init success
+12-03 17:22:32.988 I/sensor main: rt_sensor init success
+12-03 17:22:32.988 I/sensor main: rt_sensor init success
+12-03 17:22:32.988 I/sensor main: rt_sensor init success
+12-03 17:22:32.988 I/sensor main: rt_sensor init success
+12-03 17:22:33.134 I/utest main: utest is initialize success.
+12-03 17:22:33.134 I/utest main: total utest testcase num: (0)
+12-03 17:22:33.239 I/pw.fwk main: PersimWear OS 1.1.3 build Oct 20 2021
+12-03 17:22:33.524 I/locp main: LocalPath initialized !
+12-03 17:22:33.524 I/logmgr main: logmgr (v1.0.0) initialized success.
+12-03 17:22:33.615 I/pw.fwk main: set graphics devices:sdl
+12-03 17:22:33.874 I/watch.app main: Watch application framewark initialized successfully.
+12-03 17:22:33.951 I/watch.dcm.hr main: DCM heart rate service initialized successfully.
+12-03 17:22:33.954 I/watch.dcm.spo2 main: DCM spo2 rate service initialized successfully.
+12-03 17:22:34.015 I/dcm.svc main: Watch DCM service is initialized successfully.
+12-03 17:22:34.016 D/watch.cfg main: [screen_brightness_handle] set screen backlight(50).
+12-03 17:22:34.016 D/watch.cfg main: [screen_brightness_auto_handle] close screen backlight auto status.
+12-03 17:22:34.016 D/watch.cfg main: [screen_off_timeout_handle] set screen off timeout(5).
+12-03 17:22:34.016 D/watch.cfg main: [screen_off_display_handle] close off screen watch feature.
+12-03 17:22:34.016 D/watch.cfg main: [habit_vibration_handle] set vibration (0).
+12-03 17:22:34.016 W/watch.cfg main: Not enable hardware vibrate feature.
+12-03 17:22:34.016 D/watch.cfg main: [habit_dnd_handle] close do-not-disturb mode.
+12-03 17:22:34.016 D/watch.cfg main: [habit_anim_app_handle] set apply into the animation mode(scale).
+12-03 17:22:34.017 I/watch.app main: Watch application framewark starts successfully.
+12-03 17:22:34.032 D/drv.lcd hws: lcd driver control set brightness: 50.
+
+Persimmon v4.1.1 build Oct 20 2021
+
+12-03 17:22:34.168 I/js_persim persim: persimmon launch: /
+12-03 17:22:34.174 W/RES persim: No table named zh-CN, load default table!
+12-03 17:22:34.190 W/RES persim: No table named zh-CN, load default table!
+12-03 17:22:34.193 W/RES persim: No table named zh-CN, load default table!
+12-03 17:22:34.196 W/RES persim: No table named zh-CN, load default table!
+12-03 17:22:34.198 W/RES persim: No table named zh-CN, load default table!
+12-03 17:22:34.201 W/RES persim: No table named zh-CN, load default table!
+12-03 17:22:34.370 D/drv.lcd hws: lcd driver control set brightness: 1.
+12-03 17:22:34.450 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-03 17:22:34.531 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-03 17:22:34.610 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-03 17:22:34.691 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-03 17:22:34.771 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-03 17:22:34.851 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-03 17:22:34.930 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-03 17:22:35.009 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-03 17:22:35.092 D/drv.lcd hws: lcd driver control set brightness: 10.
+enter display page >>>
+
+@js localStorage battery:: 
+0%07:55
+
+@js localStorage battery:: 
+0%07:55
+
+12-03 17:25:34.322 D/drv.lcd hws: lcd driver control set brightness: 10.
+12-03 17:25:34.419 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-03 17:25:34.514 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-03 17:25:34.627 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-03 17:25:34.724 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-03 17:25:34.818 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-03 17:25:34.915 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-03 17:25:35.015 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-03 17:25:35.126 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-03 17:25:35.229 D/drv.lcd hws: lcd driver control set brightness: 1.
+12-03 17:28:54.328 D/drv.lcd hws: lcd driver control set brightness: 1.
+12-03 17:28:54.426 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-03 17:28:54.536 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-03 17:28:54.630 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-03 17:28:54.723 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-03 17:28:54.850 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-03 17:28:54.922 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-03 17:28:55.031 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-03 17:28:55.129 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-06 13:46:31.931 I/touch main: rt_touch init success
+12-06 13:46:31.931 I/sensor main: rt_sensor init success
+12-06 13:46:31.931 I/sensor main: rt_sensor init success
+12-06 13:46:31.931 I/sensor main: rt_sensor init success
+12-06 13:46:31.931 I/sensor main: rt_sensor init success
+12-06 13:46:31.932 I/sensor main: rt_sensor init success
+12-06 13:46:32.077 I/utest main: utest is initialize success.
+12-06 13:46:32.077 I/utest main: total utest testcase num: (0)
+12-06 13:46:32.124 I/pw.fwk main: PersimWear OS 1.1.3 build Oct 20 2021
+12-06 13:46:32.359 I/locp main: LocalPath initialized !
+12-06 13:46:32.359 I/logmgr main: logmgr (v1.0.0) initialized success.
+12-06 13:46:32.451 I/pw.fwk main: set graphics devices:sdl
+12-06 13:46:32.784 I/watch.app main: Watch application framewark initialized successfully.
+12-06 13:46:32.882 I/watch.dcm.hr main: DCM heart rate service initialized successfully.
+12-06 13:46:32.884 I/watch.dcm.spo2 main: DCM spo2 rate service initialized successfully.
+12-06 13:46:32.952 I/dcm.svc main: Watch DCM service is initialized successfully.
+12-06 13:46:32.953 D/watch.cfg main: [screen_brightness_handle] set screen backlight(50).
+12-06 13:46:32.953 D/watch.cfg main: [screen_brightness_auto_handle] close screen backlight auto status.
+12-06 13:46:32.953 D/watch.cfg main: [screen_off_timeout_handle] set screen off timeout(5).
+12-06 13:46:32.953 D/watch.cfg main: [screen_off_display_handle] close off screen watch feature.
+12-06 13:46:32.953 D/watch.cfg main: [habit_vibration_handle] set vibration (0).
+12-06 13:46:32.953 W/watch.cfg main: Not enable hardware vibrate feature.
+12-06 13:46:32.953 D/watch.cfg main: [habit_dnd_handle] close do-not-disturb mode.
+12-06 13:46:32.953 D/watch.cfg main: [habit_anim_app_handle] set apply into the animation mode(scale).
+12-06 13:46:32.954 I/watch.app main: Watch application framewark starts successfully.
+12-06 13:46:32.974 D/drv.lcd hws: lcd driver control set brightness: 50.
+12-06 13:46:33.108 I/js_persim persim: persimmon launch: /
+12-06 13:46:33.116 W/RES persim: No table named zh-CN, load default table!
+12-06 13:46:33.135 W/RES persim: No table named zh-CN, load default table!
+12-06 13:46:33.140 W/RES persim: No table named zh-CN, load default table!
+12-06 13:46:33.144 W/RES persim: No table named zh-CN, load default table!
+12-06 13:46:33.148 W/RES persim: No table named zh-CN, load default table!
+12-06 13:46:33.152 W/RES persim: No table named zh-CN, load default table!
+12-06 13:46:33.341 D/drv.lcd hws: lcd driver control set brightness: 1.
+
+Persimmon v4.1.1 build Oct 20 2021
+
+12-06 13:46:33.419 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-06 13:46:33.500 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-06 13:46:33.578 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-06 13:46:33.660 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-06 13:46:33.739 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-06 13:46:33.820 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-06 13:46:33.898 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-06 13:46:33.978 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-06 13:46:34.061 D/drv.lcd hws: lcd driver control set brightness: 10.
+12-06 13:46:52.303 D/drv.lcd hws: lcd driver control set brightness: 10.
+12-06 13:46:52.398 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-06 13:46:52.492 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-06 13:46:52.592 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-06 13:46:52.703 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-06 13:46:52.797 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-06 13:46:52.895 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-06 13:46:53.004 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-06 13:46:53.103 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-06 13:46:53.217 D/drv.lcd hws: lcd driver control set brightness: 1.
+12-06 13:46:54.298 D/drv.lcd hws: lcd driver control set brightness: 1.
+12-06 13:46:54.396 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-06 13:46:54.490 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-06 13:46:54.604 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-06 13:46:54.698 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-06 13:46:54.796 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-06 13:46:54.890 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-06 13:46:55.002 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-06 13:46:55.100 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-06 13:47:11.276 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-06 13:47:11.387 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-06 13:47:11.467 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-06 13:47:11.580 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-06 13:47:11.674 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-06 13:47:11.788 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-06 13:47:11.867 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-06 13:47:11.980 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-06 13:47:12.075 D/drv.lcd hws: lcd driver control set brightness: 1.
+12-06 16:59:05.703 I/touch main: rt_touch init success
+12-06 16:59:05.703 I/sensor main: rt_sensor init success
+12-06 16:59:05.703 I/sensor main: rt_sensor init success
+12-06 16:59:05.703 I/sensor main: rt_sensor init success
+12-06 16:59:05.703 I/sensor main: rt_sensor init success
+12-06 16:59:05.704 I/sensor main: rt_sensor init success
+12-06 16:59:05.898 I/utest main: utest is initialize success.
+12-06 16:59:05.898 I/utest main: total utest testcase num: (0)
+12-06 16:59:06.413 I/pw.fwk main: PersimWear OS 1.1.3 build Oct 20 2021
+12-06 16:59:07.067 I/locp main: LocalPath initialized !
+12-06 16:59:07.067 I/logmgr main: logmgr (v1.0.0) initialized success.
+12-06 16:59:07.232 I/pw.fwk main: set graphics devices:sdl
+12-06 16:59:07.638 I/watch.app main: Watch application framewark initialized successfully.
+12-06 16:59:07.767 I/watch.dcm.hr main: DCM heart rate service initialized successfully.
+12-06 16:59:07.777 I/watch.dcm.spo2 main: DCM spo2 rate service initialized successfully.
+12-06 16:59:07.888 I/dcm.svc main: Watch DCM service is initialized successfully.
+12-06 16:59:07.888 D/watch.cfg main: [screen_brightness_handle] set screen backlight(50).
+12-06 16:59:07.889 D/watch.cfg main: [screen_brightness_auto_handle] close screen backlight auto status.
+12-06 16:59:07.889 D/watch.cfg main: [screen_off_timeout_handle] set screen off timeout(5).
+12-06 16:59:07.889 D/watch.cfg main: [screen_off_display_handle] close off screen watch feature.
+12-06 16:59:07.889 D/watch.cfg main: [habit_vibration_handle] set vibration (0).
+12-06 16:59:07.889 W/watch.cfg main: Not enable hardware vibrate feature.
+12-06 16:59:07.889 D/watch.cfg main: [habit_dnd_handle] close do-not-disturb mode.
+12-06 16:59:07.889 D/watch.cfg main: [habit_anim_app_handle] set apply into the animation mode(scale).
+12-06 16:59:07.889 I/watch.app main: Watch application framewark starts successfully.
+12-06 16:59:07.957 D/drv.lcd hws: lcd driver control set brightness: 50.
+12-06 16:59:08.071 I/js_persim persim: persimmon launch: /
+12-06 16:59:08.079 W/RES persim: No table named zh-CN, load default table!
+12-06 16:59:08.107 W/RES persim: No table named zh-CN, load default table!
+12-06 16:59:08.111 W/RES persim: No table named zh-CN, load default table!
+12-06 16:59:08.115 W/RES persim: No table named zh-CN, load default table!
+12-06 16:59:08.119 W/RES persim: No table named zh-CN, load default table!
+12-06 16:59:08.123 W/RES persim: No table named zh-CN, load default table!
+12-06 16:59:08.338 D/drv.lcd hws: lcd driver control set brightness: 1.
+12-06 16:59:08.401 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-06 16:59:08.482 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-06 16:59:08.561 D/drv.lcd hws: lcd driver control set brightness: 4.
+
+Persimmon v4.1.1 build Oct 20 2021
+
+12-06 16:59:08.640 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-06 16:59:08.743 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-06 16:59:08.808 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-06 16:59:08.887 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-06 16:59:08.968 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-06 16:59:09.047 D/drv.lcd hws: lcd driver control set brightness: 10.
+enter display page >>>
+
+12-07 10:34:22.497 I/touch main: rt_touch init success
+12-07 10:34:22.497 I/sensor main: rt_sensor init success
+12-07 10:34:22.497 I/sensor main: rt_sensor init success
+12-07 10:34:22.497 I/sensor main: rt_sensor init success
+12-07 10:34:22.497 I/sensor main: rt_sensor init success
+12-07 10:34:22.497 I/sensor main: rt_sensor init success
+12-07 10:34:22.743 I/utest main: utest is initialize success.
+12-07 10:34:22.743 I/utest main: total utest testcase num: (0)
+12-07 10:34:22.948 I/pw.fwk main: PersimWear OS 1.1.3 build Oct 20 2021
+12-07 10:34:23.372 I/locp main: LocalPath initialized !
+12-07 10:34:23.372 I/logmgr main: logmgr (v1.0.0) initialized success.
+12-07 10:34:23.630 I/pw.fwk main: set graphics devices:sdl
+12-07 10:34:24.097 I/watch.app main: Watch application framewark initialized successfully.
+12-07 10:34:24.240 I/watch.dcm.hr main: DCM heart rate service initialized successfully.
+12-07 10:34:24.304 I/watch.dcm.spo2 main: DCM spo2 rate service initialized successfully.
+12-07 10:34:24.437 I/dcm.svc main: Watch DCM service is initialized successfully.
+12-07 10:34:24.438 D/watch.cfg main: [screen_brightness_handle] set screen backlight(50).
+12-07 10:34:24.438 D/watch.cfg main: [screen_brightness_auto_handle] close screen backlight auto status.
+12-07 10:34:24.438 D/watch.cfg main: [screen_off_timeout_handle] set screen off timeout(5).
+12-07 10:34:24.438 D/watch.cfg main: [screen_off_display_handle] close off screen watch feature.
+12-07 10:34:24.438 D/watch.cfg main: [habit_vibration_handle] set vibration (0).
+12-07 10:34:24.438 W/watch.cfg main: Not enable hardware vibrate feature.
+12-07 10:34:24.438 D/watch.cfg main: [habit_dnd_handle] close do-not-disturb mode.
+12-07 10:34:24.438 D/watch.cfg main: [habit_anim_app_handle] set apply into the animation mode(scale).
+12-07 10:34:24.438 I/watch.app main: Watch application framewark starts successfully.
+12-07 10:34:24.476 D/drv.lcd hws: lcd driver control set brightness: 50.
+12-07 10:34:24.607 I/js_persim persim: persimmon launch: /
+12-07 10:34:24.615 W/RES persim: No table named zh-CN, load default table!
+12-07 10:34:24.634 W/RES persim: No table named zh-CN, load default table!
+12-07 10:34:24.638 W/RES persim: No table named zh-CN, load default table!
+12-07 10:34:24.641 W/RES persim: No table named zh-CN, load default table!
+12-07 10:34:24.645 W/RES persim: No table named zh-CN, load default table!
+12-07 10:34:24.649 W/RES persim: No table named zh-CN, load default table!
+12-07 10:34:24.845 D/drv.lcd hws: lcd driver control set brightness: 1.
+
+Persimmon v4.1.1 build Oct 20 2021
+
+12-07 10:34:24.925 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-07 10:34:25.006 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-07 10:34:25.087 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-07 10:34:25.177 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-07 10:34:25.253 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-07 10:34:25.317 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-07 10:34:25.395 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-07 10:34:25.492 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-07 10:34:25.555 D/drv.lcd hws: lcd driver control set brightness: 10.
+enter display page >>>
+
+12-07 11:08:17.931 I/touch main: rt_touch init success
+12-07 11:08:17.931 I/sensor main: rt_sensor init success
+12-07 11:08:17.931 I/sensor main: rt_sensor init success
+12-07 11:08:17.931 I/sensor main: rt_sensor init success
+12-07 11:08:17.931 I/sensor main: rt_sensor init success
+12-07 11:08:17.931 I/sensor main: rt_sensor init success
+12-07 11:08:18.110 I/utest main: utest is initialize success.
+12-07 11:08:18.110 I/utest main: total utest testcase num: (0)
+12-07 11:08:18.192 I/pw.fwk main: PersimWear OS 1.1.3 build Oct 20 2021
+12-07 11:08:18.621 I/locp main: LocalPath initialized !
+12-07 11:08:18.621 I/logmgr main: logmgr (v1.0.0) initialized success.
+12-07 11:08:18.752 I/pw.fwk main: set graphics devices:sdl
+12-07 11:08:19.210 I/watch.app main: Watch application framewark initialized successfully.
+12-07 11:08:19.481 I/watch.dcm.hr main: DCM heart rate service initialized successfully.
+12-07 11:08:19.525 I/watch.dcm.spo2 main: DCM spo2 rate service initialized successfully.
+12-07 11:08:19.621 I/dcm.svc main: Watch DCM service is initialized successfully.
+12-07 11:08:19.623 D/watch.cfg main: [screen_brightness_handle] set screen backlight(50).
+12-07 11:08:19.623 D/watch.cfg main: [screen_brightness_auto_handle] close screen backlight auto status.
+12-07 11:08:19.623 D/watch.cfg main: [screen_off_timeout_handle] set screen off timeout(5).
+12-07 11:08:19.623 D/watch.cfg main: [screen_off_display_handle] close off screen watch feature.
+12-07 11:08:19.623 D/watch.cfg main: [habit_vibration_handle] set vibration (0).
+12-07 11:08:19.624 W/watch.cfg main: Not enable hardware vibrate feature.
+12-07 11:08:19.624 D/watch.cfg main: [habit_dnd_handle] close do-not-disturb mode.
+12-07 11:08:19.624 D/watch.cfg main: [habit_anim_app_handle] set apply into the animation mode(scale).
+12-07 11:08:19.624 I/watch.app main: Watch application framewark starts successfully.
+12-07 11:08:19.652 D/drv.lcd hws: lcd driver control set brightness: 50.
+12-07 11:08:19.774 I/js_persim persim: persimmon launch: /
+12-07 11:08:19.782 W/RES persim: No table named zh-CN, load default table!
+12-07 11:08:19.802 W/RES persim: No table named zh-CN, load default table!
+12-07 11:08:19.804 W/RES persim: No table named zh-CN, load default table!
+12-07 11:08:19.807 W/RES persim: No table named zh-CN, load default table!
+12-07 11:08:19.810 W/RES persim: No table named zh-CN, load default table!
+12-07 11:08:19.814 W/RES persim: No table named zh-CN, load default table!
+12-07 11:08:19.997 D/drv.lcd hws: lcd driver control set brightness: 1.
+
+Persimmon v4.1.1 build Oct 20 2021
+
+12-07 11:08:20.075 D/drv.lcd hws: lcd driver control set brightness: 2.
+12-07 11:08:20.156 D/drv.lcd hws: lcd driver control set brightness: 3.
+12-07 11:08:20.235 D/drv.lcd hws: lcd driver control set brightness: 4.
+12-07 11:08:20.317 D/drv.lcd hws: lcd driver control set brightness: 5.
+12-07 11:08:20.395 D/drv.lcd hws: lcd driver control set brightness: 6.
+12-07 11:08:20.488 D/drv.lcd hws: lcd driver control set brightness: 7.
+12-07 11:08:20.560 D/drv.lcd hws: lcd driver control set brightness: 8.
+12-07 11:08:20.626 D/drv.lcd hws: lcd driver control set brightness: 9.
+12-07 11:08:20.707 D/drv.lcd hws: lcd driver control set brightness: 10.
+enter display page >>>
+
+12-07 11:08:26.941 W/RES persim: No table named zh-CN, load default table!
+slide right
+
+12-07 11:08:29.004 W/RES persim: No table named zh-CN, load default table!
+slide right
+

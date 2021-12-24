@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="applist_page" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 0, 0, 0</property>
+    <widgets>
+      <widget name="setting_card" class="card" bindchange="onCardChange">
+        <property name="rect">15, 0, 225, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="direction">VERTICAL</property>
+        <property name="selectIndex">0</property>
+      </widget>
+      <widget name="DotIndicator1" class="DotIndicator" isCustom="customWidget">
+        <property name="rect">0, 0, 15, 240</property>
+        <property name="foreground">0, 212, 208, 200</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="backgroundImg">images/black.png</property>
+        <property name="font">fonts/youshe.ttf,16</property>
+        <property name="norImg">images/dot_normal.png</property>
+        <property name="selImg">images/dot_selected.png</property>
+        <property name="selNum">0</property>
+        <property name="gap">15</property>
+        <property name="direction">VERTICAL</property>
+        <designer name="customWidgetType">DotIndicator</designer>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

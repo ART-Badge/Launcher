@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="Game_list" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="panel1" class="panel">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="backgroundImg">images/bg_game.png</property>
+        <widgets>
+          <widget name="DotIndicator1" class="DotIndicator" isCustom="customWidget">
+            <property name="rect">0, 85, 30, 70</property>
+            <property name="foreground">0, 212, 208, 200</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,16</property>
+            <property name="norImg">images/dot_normal.png</property>
+            <property name="selImg">images/dot_selected.png</property>
+            <property name="selNum">0</property>
+            <property name="gap">10</property>
+            <property name="direction">VERTICAL</property>
+            <property name="num">2</property>
+            <designer name="customWidgetType">DotIndicator</designer>
+          </widget>
+          <widget name="title" class="label">
+            <property name="rect">60, 7, 120, 27</property>
+            <property name="foreground">255, 0, 0, 0</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,22</property>
+            <property name="text">fly bird</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+          <widget name="card1" class="card" bindchange="onCardChange">
+            <property name="rect">40, 58, 160, 120</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="direction">VERTICAL</property>
+            <property name="selectIndex">0</property>
+            <widgets>
+              <widget name="panel2" class="panel">
+                <property name="rect">0, 0, 160, 120</property>
+                <property name="background">0, 212, 208, 200</property>
+                <widgets>
+                  <widget name="imagebox1" class="imagebox">
+                    <property name="rect">0, 0, 160, 120</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="img">images/game_bird.png</property>
+                  </widget>
+                </widgets>
+              </widget>
+              <widget name="panel3" class="panel">
+                <property name="rect">0, 0, 160, 120</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="hide"/>
+                <widgets>
+                  <widget name="imagebox2" class="imagebox">
+                    <property name="rect">0, 0, 160, 120</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="img">images/game_2048.png</property>
+                  </widget>
+                </widgets>
+              </widget>
+            </widgets>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

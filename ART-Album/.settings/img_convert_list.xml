@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<images>
+  <file path="../src/res/images/bg_album.png" format="rgb565"/>
+  <file path="../src/res/images/icon2.png" format="rgb565"/>
+  <file path="../src/res/images/icon3.png" format="rgb565"/>
+  <file path="../src/res/images/icon4.png" format="rgb565"/>
+  <file path="../src/res/images/icon5.png" format="rgb565"/>
+  <file path="../src/res/images/imageBox.png" format="original"/>
+  <file path="../src/res/images/qq.png" format="rgb565"/>
+</images>

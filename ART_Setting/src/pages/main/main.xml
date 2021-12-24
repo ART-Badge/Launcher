@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="main" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="panel1" class="panel">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="backgroundImg">images/setting_bg.png</property>
+        <widgets>
+          <widget name="DotIndicator1" class="DotIndicator" isCustom="customWidget">
+            <property name="rect">76, 186, 84, 22</property>
+            <property name="foreground">0, 212, 208, 200</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,16</property>
+            <property name="norImg">images/dot_normal.png</property>
+            <property name="selImg">images/dot_selected.png</property>
+            <property name="selNum">0</property>
+            <property name="gap">15</property>
+            <property name="direction">HORIZONTAL</property>
+            <property name="num">2</property>
+            <designer name="customWidgetType">DotIndicator</designer>
+          </widget>
+          <widget name="card1" class="card" bindchange="onCardChange">
+            <property name="rect">54, 90, 128, 82</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="direction">HORIZONTAL</property>
+            <property name="selectIndex">0</property>
+            <widgets>
+              <widget name="panel2" class="panel">
+                <property name="rect">0, 0, 128, 82</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="hide"/>
+                <widgets>
+                  <widget name="imagebox1" class="imagebox">
+                    <property name="rect">9, 8, 65, 65</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="img">images/24gf-volumeCross.png</property>
+                  </widget>
+                  <widget name="slider1" class="slider">
+                    <property name="rect">86, 10, 30, 62</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="minValue">0</property>
+                    <property name="maxValue">100</property>
+                    <property name="currentValue">0</property>
+                    <property name="direction">VERTICAL</property>
+                    <property name="norImg">images/sw_on.png</property>
+                    <property name="barImg">images/sw_off.png</property>
+                  </widget>
+                </widgets>
+              </widget>
+              <widget name="panel3" class="panel">
+                <property name="rect">0, 0, 128, 82</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="hide"/>
+                <widgets>
+                  <widget name="imagebox2" class="imagebox">
+                    <property name="rect">11, 7, 65, 65</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="img">images/light.png</property>
+                  </widget>
+                  <widget name="slider2" class="slider">
+                    <property name="rect">84, 1, 30, 81</property>
+                    <property name="background">0, 212, 208, 200</property>
+                    <property name="minValue">0</property>
+                    <property name="maxValue">100</property>
+                    <property name="currentValue">0</property>
+                    <property name="direction">VERTICAL</property>
+                    <property name="norImg">images/lt_up1.png</property>
+                    <property name="barImg">images/lt_up2.png</property>
+                  </widget>
+                </widgets>
+              </widget>
+            </widgets>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

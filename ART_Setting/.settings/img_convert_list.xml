@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<images>
+  <file path="../src/res/images/24gf-volumeCross.png" format="rgb565"/>
+  <file path="../src/res/images/24gf-volumeZero.png" format="rgb565"/>
+  <file path="../src/res/images/dot_normal.png" format="rgb565"/>
+  <file path="../src/res/images/dot_selected.png" format="rgb565"/>
+  <file path="../src/res/images/imageBox.png" format="original"/>
+  <file path="../src/res/images/light.png" format="rgb565"/>
+  <file path="../src/res/images/lt_up1.png" format="rgb565"/>
+  <file path="../src/res/images/lt_up2.png" format="rgb565"/>
+  <file path="../src/res/images/power_off.png" format="rgb565"/>
+  <file path="../src/res/images/setting_bg.png" format="rgb565"/>
+  <file path="../src/res/images/slider_bar.png" format="original"/>
+  <file path="../src/res/images/slider_nor.png" format="original"/>
+  <file path="../src/res/images/slider_slider.png" format="original"/>
+  <file path="../src/res/images/switch_off.png" format="original"/>
+  <file path="../src/res/images/switch_on.png" format="original"/>
+  <file path="../src/res/images/sw_off.png" format="rgb565"/>
+  <file path="../src/res/images/sw_on.png" format="rgb565"/>
+  <file path="../src/res/images/white_line_h.png" format="rgb565"/>
+</images>

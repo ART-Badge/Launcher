@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="Game2_page" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="imagebox18" class="imagebox">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="img">images/black.png</property>
+      </widget>
+      <widget name="panel1" class="panel">
+        <property name="rect">0, 40, 240, 192</property>
+        <property name="background">0, 212, 208, 200</property>
+        <widgets>
+          <widget name="imagebox1" class="imagebox">
+            <property name="rect">31, 5, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox2" class="imagebox">
+            <property name="rect">76, 5, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox3" class="imagebox">
+            <property name="rect">121, 5, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox4" class="imagebox">
+            <property name="rect">166, 5, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox5" class="imagebox">
+            <property name="rect">31, 50, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox6" class="imagebox">
+            <property name="rect">76, 50, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox7" class="imagebox">
+            <property name="rect">121, 50, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox8" class="imagebox">
+            <property name="rect">166, 50, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox9" class="imagebox">
+            <property name="rect">31, 95, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox10" class="imagebox">
+            <property name="rect">76, 95, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox11" class="imagebox">
+            <property name="rect">121, 95, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox12" class="imagebox">
+            <property name="rect">166, 95, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox13" class="imagebox">
+            <property name="rect">31, 140, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox14" class="imagebox">
+            <property name="rect">76, 140, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox15" class="imagebox">
+            <property name="rect">121, 140, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="imagebox16" class="imagebox">
+            <property name="rect">166, 140, 45, 45</property>
+            <property name="background">0, 212, 208, 200</property>
+          </widget>
+          <widget name="button1" class="button" bindtap="exitevent">
+            <property name="rect">0, 0, 30, 190</property>
+            <property name="foreground">0, 212, 208, 200</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,15</property>
+            <property name="press"/>
+            <property name="longPressMs">500</property>
+            <property name="text">button1</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+        </widgets>
+      </widget>
+      <widget name="lblscore" class="label">
+        <property name="rect">69, 7, 136, 30</property>
+        <property name="foreground">255, 255, 255, 255</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="font">fonts/youshe.ttf,30</property>
+        <property name="text">0</property>
+        <property name="align">RIGHT | BOTTOM</property>
+      </widget>
+      <widget name="panel2" class="panel">
+        <property name="rect">1, 1, 237, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="backgroundImg">images/winbg.png</property>
+        <widgets>
+          <widget name="panel3" class="panel">
+            <property name="rect">36, 55, 165, 125</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="backgroundImg">images/2048bg.png</property>
+            <widgets>
+              <widget name="imagebox17" class="imagebox">
+                <property name="rect">18, 4, 130, 22</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="img">images/gameover.png</property>
+              </widget>
+              <widget name="label4" class="label">
+                <property name="rect">18, 38, 65, 26</property>
+                <property name="foreground">255, 255, 255, 255</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,18</property>
+                <property name="text">SCORE</property>
+                <property name="align">RIGHT | VERTICAL</property>
+              </widget>
+              <widget name="label5" class="label">
+                <property name="rect">24, 75, 59, 24</property>
+                <property name="foreground">255, 255, 255, 255</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,18</property>
+                <property name="text">BEST</property>
+                <property name="align">RIGHT | VERTICAL</property>
+              </widget>
+              <widget name="label2" class="label">
+                <property name="rect">91, 40, 69, 22</property>
+                <property name="foreground">255, 0, 0, 0</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,18</property>
+                <property name="align">HORIZONTAL | VERTICAL</property>
+              </widget>
+              <widget name="label3" class="label">
+                <property name="rect">91, 75, 69, 24</property>
+                <property name="foreground">255, 0, 0, 0</property>
+                <property name="background">0, 212, 208, 200</property>
+                <property name="font">fonts/youshe.ttf,18</property>
+                <property name="align">HORIZONTAL | VERTICAL</property>
+              </widget>
+            </widgets>
+          </widget>
+          <widget name="button1_1" class="button" bindtap="exitevent">
+            <property name="rect">0, 40, 34, 190</property>
+            <property name="foreground">0, 212, 208, 200</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,15</property>
+            <property name="press"/>
+            <property name="longPressMs">500</property>
+            <property name="text">button1</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

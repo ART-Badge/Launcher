@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<images>
+  <file path="../src/res/images/app.png" format="rgb565"/>
+  <file path="../src/res/images/demo1.png" format="rgb565"/>
+  <file path="../src/res/images/demo2.png" format="rgb565"/>
+  <file path="../src/res/images/imageBox.png" format="original"/>
+</images>

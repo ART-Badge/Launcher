@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rtgui>
+  <class>Page</class>
+  <widget name="music_page" class="Page" bindtouch="onPageTouch">
+    <property name="rect">0, 0, 240, 240</property>
+    <property name="background">0, 212, 208, 200</property>
+    <widgets>
+      <widget name="panel1" class="panel">
+        <property name="rect">0, 0, 240, 240</property>
+        <property name="background">0, 212, 208, 200</property>
+        <property name="backgroundImg">images/black.png</property>
+        <widgets>
+          <widget name="animatedImage1" class="animatedImage">
+            <property name="rect">30, 69, 110, 95</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="loop"/>
+            <property name="interval">140</property>
+          </widget>
+          <widget name="play_btn" class="button">
+            <property name="rect">173, 85, 55, 55</property>
+            <property name="foreground">255, 0, 0, 0</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,16</property>
+            <property name="press"/>
+            <property name="longPressMs">100</property>
+            <property name="norImg">images/stop.png</property>
+            <property name="downImg">images/start.png</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+          <widget name="imagebox1" class="imagebox">
+            <property name="rect">154, 57, 3, 119</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/white_line.png</property>
+          </widget>
+          <widget name="title" class="label">
+            <property name="rect">60, 6, 120, 18</property>
+            <property name="foreground">255, 249, 246, 246</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,17</property>
+            <property name="text">极乐净土</property>
+            <property name="align">HORIZONTAL | VERTICAL</property>
+          </widget>
+          <widget name="pre_btn" class="imagebox">
+            <property name="rect">185, 46, 32, 32</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/pre_mc.png</property>
+          </widget>
+          <widget name="next_btn" class="imagebox">
+            <property name="rect">185, 148, 32, 32</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/next_mc.png</property>
+          </widget>
+          <widget name="imagebox1_1" class="imagebox">
+            <property name="rect">16, 93, 2, 39</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/white_line.png</property>
+          </widget>
+          <widget name="imagebox1_2" class="imagebox">
+            <property name="rect">56, 174, 58, 2</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/white_line_h.png</property>
+          </widget>
+          <widget name="imagebox1_3" class="imagebox">
+            <property name="rect">62, 57, 47, 2</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/white_line_h.png</property>
+          </widget>
+          <widget name="progressbar1" class="slider">
+            <property name="rect">32, 206, 176, 32</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="minValue">0</property>
+            <property name="maxValue">100</property>
+            <property name="currentValue">0</property>
+            <property name="direction">HORIZONTAL</property>
+            <property name="norImg">images/ps_off.png</property>
+            <property name="barImg">images/ps_on.png</property>
+          </widget>
+          <widget name="music_lable" class="label">
+            <property name="rect">144, 187, 64, 15</property>
+            <property name="foreground">255, 255, 255, 255</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,13</property>
+            <property name="text">20:04s</property>
+            <property name="align">RIGHT | BOTTOM</property>
+          </widget>
+          <widget name="label1_1" class="label">
+            <property name="rect">32, 187, 42, 15</property>
+            <property name="foreground">255, 255, 255, 255</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="font">fonts/youshe.ttf,13</property>
+            <property name="text">0:00</property>
+            <property name="align">LEFT | BOTTOM</property>
+          </widget>
+          <widget name="imagebox1_4" class="imagebox">
+            <property name="rect">35, 30, 171, 2</property>
+            <property name="background">0, 212, 208, 200</property>
+            <property name="img">images/white_line_h.png</property>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

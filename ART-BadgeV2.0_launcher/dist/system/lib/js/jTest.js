@@ -1,0 +1,1 @@
+"use strict";var finished=!1;function runTestCase(n,t){var i=0;finished=!1,n[i].run_test(function e(s){i++;r=r&&s;if(i==n.length)return finished=!0,void t(r);n[i].run_test(e)});var r=!0}var jTest={finished:finished,runTestCase:runTestCase};module.exports=jTest;
